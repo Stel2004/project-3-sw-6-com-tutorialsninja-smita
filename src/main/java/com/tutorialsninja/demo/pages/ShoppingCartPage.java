@@ -11,7 +11,7 @@ import org.openqa.selenium.support.locators.RelativeLocator;
 
 public class ShoppingCartPage extends Utility {
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(ShoppingCartPage.class.getName());
 
     @CacheLookup
     @FindBy(xpath = "//div[@id='content']//h1")

@@ -65,8 +65,9 @@ public class RegisterPage extends Utility {
     }
 
     public void enterEmail(String email) {
-        sendTextToElement(emailField, email + getRandomString(3) + "@gmail.com");
-        log.info("Enter email " + email + " to email field " + emailField.toString());
+        String email1 = email + getRandomString(3) + "@gmail.com";
+        sendTextToElement(emailField, email1);
+        log.info("Enter email " + email1 + " to email field " + emailField.toString());
     }
 
     public void enterTelephone(String telephone) {

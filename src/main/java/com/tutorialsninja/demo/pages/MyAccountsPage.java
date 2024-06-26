@@ -1,6 +1,8 @@
 package com.tutorialsninja.demo.pages;
 
 import com.tutorialsninja.demo.utility.Utility;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
@@ -8,6 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 public class MyAccountsPage extends Utility {
+    private static final Logger log = LogManager.getLogger(MyAccountsPage.class.getName());
+
 
     public String register = "Register";
     public String login = "Login";
